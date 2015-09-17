@@ -12,6 +12,7 @@
 
   <!-- nodejs things. -->
   <project name="node" path="node" remote="makermade" revision="mm-master"/>
+  <project name="arm_android-19_arm-linux-androideabi-4.8" path="toolchain/linux-x86/arm-linux-androideabi-4.8" remote="makermade" revision="master"/>
   <!-- B2G specific things. -->
   <project name="platform_build" path="build" remote="b2g" revision="b2g-4.4.2_r1">
     <copyfile dest="Makefile" src="core/root.mk"/>
