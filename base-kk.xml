@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <manifest>
 
-  <remote fetch="https://android.googlesource.com/" name="aosp"/>
+  <remote fetch="git://codeaurora.org/quic/la/" name="aosp"/>
   <remote fetch="git://github.com/mozilla-b2g/" name="b2g"/>
   <remote fetch="git://github.com/mozilla/" name="mozilla"/>
   <remote fetch="git://github.com/apitrace/" name="apitrace"/>
